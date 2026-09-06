@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>量子物理教材指南</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500&family=Noto+Serif+SC:wght@600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="zh">
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html">量子物理教材指南<small>Quantum Physics Library</small></a>
+      <nav class="nav-links">
+        <a class="active" href="index.html"><span class="zh">导航</span><span class="en">Catalog</span></a>
+        <a href="path.html"><span class="zh">阅读路线</span><span class="en">Path</span></a>
+        <a href="about.html"><span class="zh">说明</span><span class="en">About</span></a>
+        <button class="lang-btn" type="button" onclick="toggleLang()">EN / 中</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <p class="kicker">Open sources · Honest links</p>
+      <h1 class="zh">搞清楚该读哪一本，以及从哪里合法读到。</h1>
+      <h1 class="en">Know which book to read — and where to read it legally.</h1>
+      <p class="lede zh">本站收录量子力学常用教材与讲义：开放教材链至作者或出版社官方页；商业教材只提供导读与正规购买链接。不托管盗版 PDF。</p>
+      <p class="lede en">A bilingual catalog of quantum textbooks and lecture notes. Open-licensed works link to official hosts. Commercial classics get a guide page and a publisher link — never a pirated PDF.</p>
+      <div class="notice zh">版权声明：Griffiths、Sakurai 等商业教材的 PDF 不能上传到 GitHub。请从出版社、图书馆或作者官网获取。</div>
+      <div class="notice en">Copyright notice: commercial textbook PDFs cannot be stored in this repository. Use the publisher, a library, or the author’s official page.</div>
+    </section>
+
+    <div class="toolbar" id="filters">
+      <button class="chip active" data-filter="all" type="button"><span class="zh">全部</span><span class="en">All</span></button>
+      <button class="chip" data-filter="intro" type="button"><span class="zh">入门</span><span class="en">Intro</span></button>
+      <button class="chip" data-filter="undergrad" type="button"><span class="zh">本科</span><span class="en">Undergrad</span></button>
+      <button class="chip" data-filter="grad" type="button"><span class="zh">研究生</span><span class="en">Graduate</span></button>
+      <button class="chip" data-filter="foundations" type="button"><span class="zh">基础与数学</span><span class="en">Foundations</span></button>
+      <button class="chip" data-filter="qinfo" type="button"><span class="zh">量子信息</span><span class="en">Q. Info</span></button>
+    </div>
+
+    <section>
+      <h2 class="zh">教材目录</h2>
+      <h2 class="en">Catalog</h2>
+      <p class="section-note zh">绿标为可合法免费阅读；金标为需要购买或借阅的经典教材。</p>
+      <p class="section-note en">Green = legally free to read. Gold = commercial classic — buy or borrow.</p>
+      <div class="grid" id="catalog"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <span class="zh">站点代码 MIT 许可。教材版权归作者与出版社。</span>
+      <span class="en">Site code under MIT. Textbook copyrights remain with authors and publishers.</span>
+      · <a href="https://github.com/xie-fan/quantum-physics-library">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="catalog.js"></script>
+</body>
+</html>
