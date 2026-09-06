@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>说明 — 量子物理教材指南</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="zh">
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="index.html">量子物理教材指南<small>Quantum Physics Library</small></a>
+      <nav class="nav-links">
+        <a href="index.html"><span class="zh">导航</span><span class="en">Catalog</span></a>
+        <a href="path.html"><span class="zh">阅读路线</span><span class="en">Path</span></a>
+        <a class="active" href="about.html"><span class="zh">说明</span><span class="en">About</span></a>
+        <button class="lang-btn" type="button" onclick="toggleLang()">EN / 中</button>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap">
+    <article class="article">
+      <p class="kicker">Policy</p>
+      <h1 class="zh">关于本站</h1>
+      <h1 class="en">About this site</h1>
+      <p class="zh">本仓库是一份可部署到 GitHub Pages 的量子力学教材导览：总导航页列出常用教材，每一本另有独立介绍页。开放教材只链到作者或出版社官方源；商业教材只提供导读与正规购买、馆藏入口。</p>
+      <p class="en">This repository is a GitHub Pages-ready guide to quantum-mechanics textbooks. The homepage is a catalog; each title has its own introduction page. Open works link to official hosts. Commercial titles receive a guide page and a publisher or library link.</p>
+      <h2 class="zh">为何不存放教材 PDF</h2>
+      <h2 class="en">Why the PDFs are not in the repo</h2>
+      <p class="zh">Griffiths、Sakurai、Shankar、Cohen-Tannoudji、Dirac、Nielsen & Chuang 等书仍受版权保护。将 PDF 上传到 GitHub 构成侵权，并违反 GitHub 服务条款。</p>
+      <p class="en">Major commercial textbooks remain in copyright. Uploading those PDFs to GitHub is infringement and breaks GitHub’s terms of service.</p>
+      <h2 class="zh">如何启用 GitHub Pages</h2>
+      <h2 class="en">Enable GitHub Pages</h2>
+      <p class="zh">Settings → Pages → Deploy from a branch → main / (root)。数分钟后访问 https://xie-fan.github.io/quantum-physics-library/</p>
+      <p class="en">Settings → Pages → Deploy from a branch → main / (root). Then open https://xie-fan.github.io/quantum-physics-library/</p>
+      <div class="links">
+        <a class="btn primary" href="index.html"><span class="zh">返回目录</span><span class="en">Back to catalog</span></a>
+        <a class="btn" href="https://github.com/xie-fan/quantum-physics-library">GitHub</a>
+      </div>
+    </article>
+  </main>
+  <footer><div class="wrap"><span class="zh">站点代码 MIT 许可。教材版权归作者与出版社。</span><span class="en">Site code under MIT. Textbook copyrights remain with authors and publishers.</span></div></footer>
+  <script src="catalog.js"></script>
+</body>
+</html>
