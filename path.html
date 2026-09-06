@@ -9,25 +9,76 @@
 </head>
 <body class="zh">
 <header><div class="wrap nav"><a class="brand" href="index.html">量子物理教材指南<small>Quantum Physics Library</small></a><nav class="nav-links"><a href="index.html">导航</a><a class="active" href="path.html">阅读路线</a><a href="about.html">说明</a><button class="lang-btn" type="button" onclick="toggleLang()">EN / 中</button></nav></div></header>
-<main class="wrap article">
-<p class="kicker">Curriculum</p>
-<h1 class="zh">一条可执行的阅读路线</h1>
-<h1 class="en">A workable reading path</h1>
-<p class="zh">先用免费资源搭骨架，再决定是否购买 Griffiths 或 Sakurai。不要同时开三本本科教科书。</p>
-<p class="en">Build the skeleton with free sources first. Then buy one core textbook.</p>
-<h2 class="zh">1. 概念入门</h2>
-<h2 class="en">1. Concepts</h2>
-<p><a href="books/feynman.html">Feynman Vol. III</a> · <a href="books/styer.html">Styer</a> · <a href="books/idema.html">Idema</a></p>
-<h2 class="zh">2. 本科</h2>
-<h2 class="en">2. Undergraduate</h2>
-<p><a href="books/tong.html">Tong</a> · <a href="books/mit-ocw.html">MIT OCW</a> · <a href="books/griffiths.html">Griffiths</a> · <a href="books/townsend.html">Townsend</a></p>
-<h2 class="zh">3. 研究生</h2>
-<h2 class="en">3. Graduate</h2>
-<p><a href="books/likharev.html">Likharev</a> · <a href="books/sakurai.html">Sakurai</a> · <a href="books/shankar.html">Shankar</a></p>
-<h2 class="zh">4. 分支</h2>
-<h2 class="en">4. Branches</h2>
-<p><a href="books/landsman.html">Landsman</a> · <a href="books/woit.html">Woit</a> · <a href="books/nielsen-chuang.html">Nielsen &amp; Chuang</a></p>
+<main class="wrap article wide">
+<p class="kicker">Roadmap</p>
+<h1 class="zh">按主题选书，按章节读</h1>
+<h1 class="en">Pick a book for the topic, then read those chapters</h1>
+<p class="zh">不要并行通读三本本科教科书。先用免费资源把骨架立起来，再选一本有习题的主教材做完。章节号按常用版本：Griffiths 3rd、Sakurai 3rd、Tong 讲义、Feynman Vol. III、Likharev EGP-QM。</p>
+<p class="en">Do not read three undergraduate textbooks at once. Build the skeleton with free notes, then finish one problem-heavy book. Chapter numbers follow common editions.</p>
+
+<h2 class="zh">每本书的长处</h2>
+<h2 class="en">What each book is good for</h2>
+<ul>
+<li class="zh"><a href="books/feynman.html">Feynman III</a>：概念与路径积分直觉。不够当唯一教科书。</li>
+<li class="en"><a href="books/feynman.html">Feynman III</a>: intuition and amplitudes. Not enough as the only textbook.</li>
+<li class="zh"><a href="books/styer.html">Styer</a>：短、清、免费。用来测自己是否真的读得进去。</li>
+<li class="en"><a href="books/styer.html">Styer</a>: short, free, honest. A test of whether you will actually study.</li>
+<li class="zh"><a href="books/idema.html">Idema</a>：现代本科入门，Jupyter Book 好读。</li>
+<li class="en"><a href="books/idema.html">Idema</a>: modern bachelor intro with an interactive book.</li>
+<li class="zh"><a href="books/tong.html">Tong</a>：免费讲义里表述最清的一份。先读这份再决定买书。</li>
+<li class="en"><a href="books/tong.html">Tong</a>: the cleanest free notes. Read this before buying a book.</li>
+<li class="zh"><a href="books/mit-ocw.html">MIT OCW</a>：要听课、做官方习题就跟 Zwiebach。</li>
+<li class="en"><a href="books/mit-ocw.html">MIT OCW</a>: lectures + official problem sets.</li>
+<li class="zh"><a href="books/griffiths.html">Griffiths</a>：本科做题标准。一维势阱、氢原子、微扰最熟。</li>
+<li class="en"><a href="books/griffiths.html">Griffiths</a>: undergraduate drill book. Wells, hydrogen, perturbation.</li>
+<li class="zh"><a href="books/townsend.html">Townsend</a>：自旋优行。想先弄懂态矢再回波函数就走它。</li>
+<li class="en"><a href="books/townsend.html">Townsend</a>: spins first, then wave mechanics.</li>
+<li class="zh"><a href="books/binney.html">Binney</a>：概率幅与含时演化讲得透，牛津味道。</li>
+<li class="en"><a href="books/binney.html">Binney</a>: amplitudes and the classical limit, Oxford style.</li>
+<li class="zh"><a href="books/sakurai.html">Sakurai</a>：研究生形式体系与对称性。读完 Griffiths 再换。</li>
+<li class="en"><a href="books/sakurai.html">Sakurai</a>: graduate formalism and symmetry. After Griffiths.</li>
+<li class="zh"><a href="books/shankar.html">Shankar</a>：数学准备写得多。线代不够就从它开始。</li>
+<li class="en"><a href="books/shankar.html">Shankar</a>: mathematical scaffolding before the postulates.</li>
+<li class="zh"><a href="books/likharev.html">Likharev</a>：免费研究生课，习题多。</li>
+<li class="en"><a href="books/likharev.html">Likharev</a>: free graduate course with many problems.</li>
+<li class="zh"><a href="books/cohen-tannoudji.html">Cohen-Tannoudji</a>：查询用。不要从第一页通读。</li>
+<li class="en"><a href="books/cohen-tannoudji.html">Cohen-Tannoudji</a>: encyclopedia. Look up, do not read cover to cover.</li>
+<li class="zh"><a href="books/landsman.html">Landsman</a>：基础与算子代数。做题课之后再读。</li>
+<li class="en"><a href="books/landsman.html">Landsman</a>: foundations via operator algebras.</li>
+<li class="zh"><a href="books/woit.html">Woit</a>：李群与表示论入口。</li>
+<li class="en"><a href="books/woit.html">Woit</a>: groups and representations first.</li>
+<li class="zh"><a href="books/nielsen-chuang.html">Nielsen &amp; Chuang</a>：量子信息。先有一年量子力学再开。</li>
+<li class="en"><a href="books/nielsen-chuang.html">Nielsen &amp; Chuang</a>: quantum information after one year of QM.</li>
+</ul>
+
+<h2 class="zh">主题 → 章节</h2>
+<h2 class="en">Topic → chapters</h2>
+<table class="map">
+<thead><tr><th class="zh">主题</th><th class="en">Topic</th><th class="zh">先读（免费）</th><th class="en">Read first (free)</th><th class="zh">再读（教科书）</th><th class="en">Then (textbook)</th></tr></thead>
+<tbody>
+<tr><td class="zh">波函数、薛定谔方程、概率解释</td><td class="en">Wavefunction, Schrödinger equation</td><td><a href="books/tong.html">Tong</a> 第 1 章；<a href="books/feynman.html">Feynman III</a> 第 1–3 章</td><td><a href="books/griffiths.html">Griffiths</a> 第 1 章；<a href="books/idema.html">Idema</a> 前半</td></tr>
+<tr><td class="zh">一维势阱：方势阱、谐振子、随道</td><td class="en">1D wells, oscillator, tunneling</td><td><a href="books/tong.html">Tong</a> 第 2 章；<a href="books/likharev.html">Likharev</a> 第 2 章</td><td><a href="books/griffiths.html">Griffiths</a> 第 2 章</td></tr>
+<tr><td class="zh">态矢、算符、测量、不确定性</td><td class="en">Kets, operators, measurement</td><td><a href="books/tong.html">Tong</a> 第 3 章；<a href="books/styer.html">Styer</a></td><td><a href="books/griffiths.html">Griffiths</a> 第 3 章；或 <a href="books/townsend.html">Townsend</a> 前几章</td></tr>
+<tr><td class="zh">自旋与二态系统</td><td class="en">Spin and two-state systems</td><td><a href="books/feynman.html">Feynman III</a> 第 5–11 章；<a href="books/freericks.html">Freericks</a> 自旋章</td><td><a href="books/townsend.html">Townsend</a> 开头；<a href="books/sakurai.html">Sakurai</a> 第 1 章</td></tr>
+<tr><td class="zh">角动量、三维、氢原子</td><td class="en">Angular momentum, hydrogen</td><td><a href="books/tong.html">Tong</a> 第 4 章；<a href="books/feynman.html">Feynman III</a> 第 18–19 章</td><td><a href="books/griffiths.html">Griffiths</a> 第 4 章；<a href="books/sakurai.html">Sakurai</a> 第 3 章</td></tr>
+<tr><td class="zh">全同粒子、氟原子</td><td class="en">Identical particles, helium</td><td><a href="books/feynman.html">Feynman III</a> 第 4 章；<a href="books/likharev.html">Likharev</a> 第 8 章</td><td><a href="books/griffiths.html">Griffiths</a> 第 5 章；<a href="books/sakurai.html">Sakurai</a> 第 6 章</td></tr>
+<tr><td class="zh">对称性与守恒</td><td class="en">Symmetry and conservation</td><td><a href="books/feynman.html">Feynman III</a> 第 17 章</td><td><a href="books/griffiths.html">Griffiths</a> 第 6 章；<a href="books/sakurai.html">Sakurai</a> 第 4 章</td></tr>
+<tr><td class="zh">定态微扰、变分法、WKB</td><td class="en">Perturbation, variational, WKB</td><td><a href="books/likharev.html">Likharev</a> 第 6 章</td><td><a href="books/griffiths.html">Griffiths</a> 第 7–9 章；<a href="books/sakurai.html">Sakurai</a> 第 5 章</td></tr>
+<tr><td class="zh">散射</td><td class="en">Scattering</td><td><a href="books/likharev.html">Likharev</a> 高维章节</td><td><a href="books/griffiths.html">Griffiths</a> 第 10 章；<a href="books/sakurai.html">Sakurai</a> 第 7 章</td></tr>
+<tr><td class="zh">含时演化、路径积分</td><td class="en">Time evolution, path integrals</td><td><a href="books/feynman.html">Feynman III</a> 第 8、16 章</td><td><a href="books/griffiths.html">Griffiths</a> 第 11 章；<a href="books/sakurai.html">Sakurai</a> 第 2 章</td></tr>
+<tr><td class="zh">纠缠、测量问题</td><td class="en">Entanglement, measurement</td><td><a href="books/landsman.html">Landsman</a> 前几章；<a href="books/cetto.html">Cetto</a></td><td><a href="books/sakurai.html">Sakurai</a> 第 1 章末；<a href="books/nielsen-chuang.html">N&amp;C</a> 第 2 章</td></tr>
+<tr><td class="zh">量子信息与计算</td><td class="en">Quantum information</td><td><a href="books/freericks.html">Freericks</a> 后半部分支</td><td><a href="books/nielsen-chuang.html">Nielsen &amp; Chuang</a> 第 1–4 章</td></tr>
+<tr><td class="zh">李群、表示论</td><td class="en">Lie groups, representations</td><td><a href="books/woit.html">Woit</a> 全书前半</td><td><a href="books/weinberg.html">Weinberg</a>；<a href="books/dirac.html">Dirac</a>（二读）</td></tr>
+</tbody>
+</table>
+
+<h2 class="zh">两条推荐路</h2>
+<h2 class="en">Two recommended tracks</h2>
+<p class="zh"><strong>免费路：</strong>Styer 或 Idema → Tong 1–4 章 → MIT OCW 8.04 习题 → Likharev 4–6 章 → Landsman / Woit（选读）。</p>
+<p class="en"><strong>Free track:</strong> Styer or Idema → Tong ch. 1–4 → MIT 8.04 problems → Likharev ch. 4–6 → Landsman / Woit.</p>
+<p class="zh"><strong>标准课路：</strong>Tong 1–2 章 → Griffiths 1–5 章（做题）→ Griffiths 6–8 章 → Sakurai 1–5 章 → Nielsen &amp; Chuang 1–4 章。</p>
+<p class="en"><strong>Standard track:</strong> Tong 1–2 → Griffiths 1–5 with problems → Griffiths 6–8 → Sakurai 1–5 → Nielsen &amp; Chuang 1–4.</p>
 </main>
-<footer><div class="wrap">站点代码 MIT</div></footer>
+<footer><div class="wrap">站点代码 MIT · 章节号以常用版本为准</div></footer>
 <script src="catalog.js"></script>
 </body></html>
